@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вика](https://up.htmlacademy.ru/htmlcss-individual/2/user/2570615).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Миронов](https://htmlacademy.ru/profile/id1336881).
 
 ---
 
