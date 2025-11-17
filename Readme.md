@@ -2,7 +2,7 @@
 
 * Студент: [Вика](https://up.htmlacademy.ru/htmlcss-individual/2/user/2570615).
 * Наставник: [Максим Миронов](https://htmlacademy.ru/profile/id1336881).
-
+* Сайт: [Мой проект](https://vikazhevurova.github.io/2570615-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
