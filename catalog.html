@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">
+        <img src="#" alt="Логотип City of Sedona">
+        </a>
+        <li>
+          <a href="/">Главная</a>
+        </li>
+        <li>
+          <a href="#">О Седоне</a>
+        </li>
+        <li>
+          <a href="#">Гостиницы</a>
+        </li>
+      </ul>
+      </nav>
+       <nav>
+      <ul>
+        <li>
+          <a href="#"><span class="visually-hidden">Поиск</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="visually-hidden">Избранное</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Хочу сюда</span></a>
+        </li>
+      </ul>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <h1>Гостиницы Седоны</h1>
+        <nav>
+        <ol>
+          <li>
+            <a href="/"><span class="visually-hidden">Главная</span></a>
+          </li>
+           <li>
+            <a href="#">Гостиницы</a>
+          </li>
+        </ol>
+      </nav>
+      <section>
+        <h2 class="visually-hidden">Фильтр для поиска гостиниц</h2>
+        <form action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+            <label>
+              <input type="checkbox" name="swimming-pool" checked>
+              Бассейн
+            </label>
+            </li>
+            <li>
+                <label>
+              <input type="checkbox" name="parking" checked>
+              Парковка
+            </label>
+            </li>
+            <li>
+                <label>
+              <input type="checkbox" name="wi-fi">
+              Wi-Fi
+            </label>
+            </li>
+            </ul>
+          </fieldset>
+           <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li>
+                <label>
+            <input type="radio" name="type-of-housing" value="hotel" checked>
+            Гостиница
+            </label>
+            </li>
+              <li>
+                <label>
+            <input type="radio" name="type-of-housing" value="motel">
+            Мотель
+            </label>
+            </li>
+              <li>
+                <label>
+            <input type="radio" name="type-of-housing" value="apartments">
+            Апартаменты
+            </label>
+            </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость, ₽:</legend>
+            <textarea name="price" value="0">от</textarea>
+            <textarea name="price" value="9000">до</textarea>
+          </fieldset>
+          <button>Применить</button>
+          <button>Сбросить</button>
+        </form>
+      </section>
+      </header>
+      <section>
+        <h2 class="visually-hidden">Способы отображения гостиниц</h2>
+        <p>Найдено гостиц:38</p>
+        <select>
+          <option value="cheap">Сначала дешевые</option>
+          <option value="expensive">Сначала дорогие</option>
+          <option value="popular">Сначала популярные</option>
+        </select>
+        <a href="#">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+        <a href="#">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+      </section>
+      <section>
+        <h2 class="visually-hidden">Список найденных гостиниц</h2>
+
+      </section>
+
+    </main>
+    <footer>
+      <section>
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <label>
+            <span class="visually-hidden">Email</span>
+          <input placeholder="Ваш e-mail" type="email" name="email" required>
+          </label>
+          <button type="submit">Подписаться</button>
+        </form>
+      </section>
+      <section>
+         <h2 class="visually-hidden">Социальные сети</h2>
+         <a href="#"><span class="visually-hidden">Вконтакте</span></a>
+         <a href="#"><span class="visually-hidden">Телеграм</span></a>
+         <a href="#"><span class="visually-hidden">Ютуб</span></a>
+      </section>
+      <section>
+        <address>
+          <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </address>
+      </section>
+       <img src="#" alt="HTML Academy">
+      </footer>
+  </body>
+</html>
