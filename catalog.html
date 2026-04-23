@@ -37,16 +37,14 @@
     </header>
     <main>
       <h1>Гостиницы Седоны</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html" aria-label="Ведет на главную страницу"></a>
-          </li>
-          <li>
-            <a href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
-      </nav>
+      <ul>
+        <li>
+          <a href="index.html" aria-label="Ведет на главную страницу"></a>
+        </li>
+        <li>
+          <a href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
       <h2 class="visually-hidden">Фильтр для поиска гостиниц</h2>
       <form action="https://echo.htmlacademy.ru/" method="get">
         <fieldset>
@@ -98,17 +96,25 @@
         <fieldset>
           <legend>Стоимость, ₽:</legend>
           <div>
-            <label>
-              <input type="text" name="minimum-price" value="0">
-              <span>от</span>
-            </label>
-            <label>
-              <input type="text" name="maximum price" value="9000">
-              <span>до</span>
-            </label>
-            <label>
-              <input type="range" name="price-scale">
-            </label>
+            <ul>
+              <li>
+                <label>
+                  <input type="text" name="minimum-price" value="0">
+                  от
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="text" name="maximum-price" value="9000">
+                  до
+                </label>
+              </li>
+            </ul>
+            <div>
+              <label>
+                <input type="range" name="price-scale">
+              </label>
+            </div>
           </div>
         </fieldset>
         <button type="submit">Применить</button>
@@ -140,14 +146,22 @@
               <img src="" alt="Гостиница Amara Resort & Spa">
               <h3>Amara Resort & Spa</h3>
             </a>
-            <div>
-              <p>Гостиница</p>
-              <p>От 4000 ₽</p>
-            </div>
-            <div>
-              <a href="#">Подробнее</a>
-              <button type="submit">В Избранное</button>
-            </div>
+            <ul>
+              <li>
+                <p>Гостиница</p>
+              </li>
+              <li>
+                <p>От 4000 ₽</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Подробнее</a>
+              </li>
+              <li>
+                <button type="submit">В Избранное</button>
+              </li>
+            </ul>
             <div>
               <ul>
                 <li>*</li>
@@ -163,14 +177,22 @@
               <img src="" alt="Гостиница Villas at Poco Diablo">
               <h3>Villas at Poco Diablo</h3>
             </a>
-            <div>
-              <p>Гостиница</p>
-              <p>От 5000 ₽</p>
-            </div>
-            <div>
-              <a href="#">Подробнее</a>
-              <button type="submit">В Избранное</button>
-            </div>
+            <ul>
+              <li>
+                <p>Гостиница</p>
+              </li>
+              <li>
+                <p>От 5000 ₽</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Подробнее</a>
+              </li>
+              <li>
+                <button type="submit">В Избранное</button>
+              </li>
+            </ul>
             <div>
               <ul>
                 <li>*</li>
@@ -186,14 +208,22 @@
               <img src="" alt="Гостиница Desert Quail Inn">
               <h3>Desert Quail Inn</h3>
             </a>
-            <div>
-              <p>Гостиница</p>
-              <p>От 2500 ₽</p>
-            </div>
-            <div>
-              <a href="#">Подробнее</a>
-              <button type="submit">В Избранное</button>
-            </div>
+            <ul>
+              <li>
+                <p>Гостиница</p>
+              </li>
+              <li>
+                <p>От 2500 ₽</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Подробнее</a>
+              </li>
+              <li>
+                <button type="submit">В Избранное</button>
+              </li>
+            </ul>
             <div>
               <ul>
                 <li>*</li>
@@ -208,14 +238,22 @@
               <img src="" alt="Гостиница GreenTree Inn">
               <h3>GreenTree Inn</h3>
             </a>
-            <div>
-              <p>Гостиница</p>
-              <p>От 1500 ₽</p>
-            </div>
-            <div>
-              <a href="#">Подробнее</a>
-              <button type="submit">В Избранное</button>
-            </div>
+            <ul>
+              <li>
+                <p>Гостиница</p>
+              </li>
+              <li>
+                <p>От 1500 ₽</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Подробнее</a>
+              </li>
+              <li>
+                <button type="submit">В Избранное</button>
+              </li>
+            </ul>
             <div>
               <ul>
                 <li>*</li>
@@ -243,23 +281,22 @@
               <a href="#" aria-label="Страница с 5 по 9">...</a>
             </li>
             <li>
-              <a>10</a>
+              <a href="#">10</a>
             </li>
           </ul>
         </nav>
       </section>
-      <section>
-        <form action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset>
-            <legend>Подпишитесь на рассылку</legend>
-            <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <label aria-label="Email">
-              <input placeholder="Ваш e-mail" type="email" name="email" required>
-            </label>
-            <button type="submit">Подписаться</button>
-          </fieldset>
-        </form>
-      </section>
+      <form action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset>
+          <legend>Подпишитесь на рассылку</legend>
+          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <label>
+            <span class="visually-hidden">Email</span>
+            <input placeholder="Ваш e-mail" type="email" name="email" required>
+          </label>
+          <button type="submit">Подписаться</button>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <ul>
